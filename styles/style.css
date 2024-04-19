@@ -28,13 +28,14 @@
 .header_logo {
     justify-self: center;
     width: 148px;
-    margin-right: 180px;
+    margin-right: 120px;
 }
 
 
 .header_address {
     font-style: inherit;
     text-underline-position: under;
+    margin-right: 50px;
 }
 
 .address_point {
@@ -74,6 +75,8 @@
 
 
 
+
+
 .letter-spacing-extended {
     letter-spacing: 50px;
 }
@@ -91,10 +94,10 @@
 .cover_description {
    position: relative;
    display: flex;
-   justify-content: space-evenly;
+   justify-content: space-between;
    align-items: center;
    padding: 100px 50px 62px 78px;
-   gap: 40px;
+
   
 }
 
@@ -102,6 +105,100 @@
     font-size: 22px;
     color: #fff;
     text-transform: uppercase;
-    gap: 20px;
+    word-spacing: 17px;
     
+}
+
+.bet-button {
+    font-size: 22px;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    padding: 14px 29px;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 25px;
+    letter-spacing: 1px;
+   
+}
+
+.lots {
+    padding: 0 24px;
+}
+
+.lots_heading {
+    margin: 179px 0 27px 64px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.lots_card-list {
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+    justify-content: flex-start;
+}
+
+.lots_card-list-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 51px 40px;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.card_type_film {
+    background-image: url('../images/card-lot-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.card_type_book {
+    background-image: url('../images/card-lot-02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+.card_type_picture {
+    background-image: url('../images/card-lot-03.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+}
+
+.card_title {
+    position: relative;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-position: under;
+    line-height: 1.3;
+    color: #fff;
+    
+}
+
+
+.card_text {
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: auto;
+    color: #fff;
 }
