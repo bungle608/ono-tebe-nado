@@ -9,7 +9,7 @@
 
 .header_links-list {
     display: flex;
-    gap: 13px;
+    gap: 7px;
 }
 
 .header_link-list-item {
@@ -28,7 +28,7 @@
 .header_logo {
     justify-self: center;
     width: 148px;
-    margin-right: 120px;
+    margin-right:80px;
 }
 
 
@@ -39,7 +39,7 @@
 
 
 .header_address {
-    margin-right: 50px;
+    margin-right: 120px;
 }
 
 .address_point {
@@ -65,8 +65,7 @@
     
 }
 
-
-.cover_title{
+.cover_title {
     position: relative;
     color: #fff;
     font-size: 100px;
@@ -76,8 +75,6 @@
     flex-direction: column;
     padding: 165px 50px 10px;
 }
-
-
 
 
 
@@ -130,7 +127,7 @@
 }
 
 .lots_heading {
-    margin: 179px 0 27px 64px;
+    margin: 170px 0 27px 50px;
     font-size: 40px;
     text-transform: uppercase;
 }
@@ -218,7 +215,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 24px;
     padding: 0 50px;
-    margin-top: 150px;
+    margin-top: 180px;
   }
   
   .about_column {
@@ -239,17 +236,19 @@
     background-color: #000;
   }
   
+
   .about_logo-image {
     width: 141px;
   }
   
+
   .about_title {
     text-transform: uppercase;
     padding: 100px 0 100px;
     font-size: 40px;   
-    
   }
   
+
   .about_text {
     display: flex;
     flex-direction: column;
@@ -261,7 +260,7 @@
   .footer {
     display: flex;
     justify-content: space-between;
-    padding: 180px 50px 88px;
+    padding: 160px 50px 88px;
   }
 
   .footer_menu-list {
