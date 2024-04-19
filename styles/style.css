@@ -233,9 +233,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 100%;
     width: 240px;
     height: 240px;
-    border-radius: 100%;
     background-color: #000;
   }
   
@@ -244,9 +244,10 @@
   }
   
   .about_title {
+    text-transform: uppercase;
     padding: 100px 0 100px;
     font-size: 40px;   
-    text-transform: uppercase;
+    
   }
   
   .about_text {
