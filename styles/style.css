@@ -25,6 +25,10 @@
     font-size: 18px;
 }
 
+.header_link_active {
+    border-bottom: none;
+}
+
 .header_logo {
     justify-self: center;
     width: 148px;
