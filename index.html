@@ -10,21 +10,21 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header class="header">
+    <header id="main-section" class="header">
       <nav class="header_menu">
         <ul class="header_links-list">
           <li class="header_links-list-item header_links-list-item_no-bullit">
-            <a class="header_link header_link_active" href="">главная</a>
+            <a class="header_link header_link_active" href="#main-section">главная</a>
           </li>
           <li class="header_link-list-item">
-            <a class="header_link header_link_active" href="">посмотреть лоты</a>
+            <a class="header_link" href="#lot">посмотреть лоты</a>
           </li>
           <li class="header_link-list-item">
-            <a class="header_link header_link_active" href="">об аукционе</a>
+            <a class="header_link" href="#about-section">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header_logo" href="">
+      <a class="header_logo" href="#main-section">
         <img class="header_logo-image" src="images/logo-black.svg" alt="логотип проекта">
       </a>
       <address class="address header_address">
@@ -35,7 +35,7 @@
       </address>
     </header>
     <main>
-      <section class="cover">
+      <section  class="cover">
         <div class="overlay"></div>
         <h1 class="cover_title">
           <span class="aligned-text"
@@ -51,7 +51,7 @@
           <button class="bet-button">Сделать ставку</button>
         </div>
       </section>
-      <section class="lots">
+      <section id="lot" class="lots">
         <h2 class="lots_heading">Лоты</h2>
         <ul class="lots_card-list">
           <li class="lots_card-list-item">
@@ -96,7 +96,7 @@
         </ul>
       <a class="lots_look-more-link" href="">посмотреть больше</a>
       </section>
-      <section class="about">
+      <section id="about-section" class="about">
           <div class="about_column">
           <div class="about_logo">
             <img class="about_logo-image" src="images/logo-white.svg" 
@@ -133,29 +133,29 @@
       <nav class="footer_menu">
         <ul class="footer_menu-list">
           <li class="footer_menu-list-item">
-            <a class="footer_menu-link footer_menu-link_active" href="">главная</a>
+            <a class="footer_menu-link footer_menu-link_active" href="#main-section">главная</a>
           </li>
           <li class="footer_menu-list-item">
-            <a class="footer_menu-link" href="">посмотреть лоты</a> 
+            <a class="footer_menu-link" href="#lot">посмотреть лоты</a> 
           </li>
           <li class="footer_menu-list-item">
-            <a class="footer_menu-link" href="">об аукционе</a>
+            <a class="footer_menu-link" href="#about-section">об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer_social-list">
         <li class="footer_social-list-item">
-          <a href="" class="footer_social-link">
+          <a href="https://www.youtube.com/watch?v=Pbzn79TSRO0" class="footer_social-link">
             <img class="footer_social-icon" src="images/yt.svg" alt="логотип youtube">
           </a>
         </li>
         <li class="footer_social-list-item">
-          <a href="" class="footer_social-link">
+          <a href="https://vk.com/" class="footer_social-link">
             <img class="footer_social-icon" src="images/vk.svg" alt="логотип вконтакте">
           </a>
         </li>
         <li class="footer_social-list-item">
-          <a href="" class="footer_social-link">
+          <a href="https://ru.pinterest.com/" class="footer_social-link">
             <img class="footer_social-icon" src="images/pinterest.svg" alt="логотип pinterest">
           </a>
         </li>
