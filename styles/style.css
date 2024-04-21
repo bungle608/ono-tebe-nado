@@ -43,11 +43,14 @@ html {
 
 .address {
     font-style: inherit;
-    text-decoration: underline;
     text-underline-offset: 5px;
     line-height: 1.2;
     letter-spacing: 1px;
     font-size: 18px;
+}
+
+.address_text {
+    text-decoration: none;
 }
 
 .header_address {
