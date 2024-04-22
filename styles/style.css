@@ -5,21 +5,30 @@ html {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 87px 24px 96px;
+    margin: 90px 24px 90px;
     gap: 5px;
+}
+
+.header_menu {
+    margin-left: 25px;
+   
 }
 
 .header_links-list {
     display: flex;
-    gap: 7px;
+    gap: 13px;
 }
 
 .header_link-list-item {
+   
     list-style: circle;
     list-style-position: inside;
+    
+    
 }
+
 
 .header_links-list-item_no-bullit {
     list-style: none;
@@ -36,16 +45,14 @@ html {
 }
 
 .header_logo {
-    justify-self: center;
-    width: 148px;
-    margin-right: 150px;
+    width: 143px;
+    margin-right: 151px;
 }
 
 .address {
     font-style: inherit;
     text-underline-offset: 5px;
     line-height: 1.4;
-    letter-spacing: 1px;
     font-size: 18px;
 }
 
@@ -54,7 +61,7 @@ html {
 }
 
 .header_address {
-    margin-right: 30px;
+    margin-right: 62px;
 }
 
 .cover {
@@ -81,7 +88,7 @@ html {
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 10px;
+    padding: 170px 50px 10px;
 }
 
 .letter-spacing-extended {
@@ -111,21 +118,21 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 93px 43px 63px 84px;
+    padding: 97px 49px 50px 79px;
 }
 
 .cover_description-text {
     font-size: 22px;
     color: #fff;
     text-transform: uppercase;
-    word-spacing: 17px;
+    word-spacing: 18px;
 }
 
 .bet-button {
     font-size: 22px;
     border: 1px solid #fff;
     text-transform: uppercase;
-    padding: 14px 29px;
+    padding: 12px 25px;
     background-color: transparent;
     color: #fff;
     letter-spacing: 1px;
@@ -133,6 +140,7 @@ html {
 
 .lots {
     padding: 0 24px;
+    height: 100%;
 }
 
 .lots_heading {
@@ -146,12 +154,10 @@ html {
     list-style: none;
     gap: 25px;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    
 }
 
 .lots_card-list-item {
-    flex-grow: 1;
-    flex-basis: 0;
     position: relative;
     z-index: 1;
 }
@@ -165,11 +171,12 @@ html {
     display: flex;
     flex-direction: column;
     padding: 51px 40px;
-    justify-content: flex-start;
+    justify-content: space-between;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+    width: 334px;
 }
 
 .card_type_film {
@@ -198,7 +205,6 @@ html {
     position: relative;
     font-size: 20px;
     text-decoration: none;
-    margin-top: auto;
     color: #fff;
 }
 
