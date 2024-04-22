@@ -12,8 +12,7 @@ html {
 }
 
 .header_menu {
-    margin-left: 25px;
-   
+    margin-left: 25px;   
 }
 
 .header_links-list {
@@ -25,10 +24,7 @@ html {
    
     list-style: circle;
     list-style-position: inside;
-    
-    
 }
-
 
 .header_links-list-item_no-bullit {
     list-style: none;
@@ -139,7 +135,6 @@ html {
     padding: 12px 32px;
     background-color: transparent;
     color: #fff;
-   
 }
 
 .lots {
@@ -155,10 +150,9 @@ html {
 
 .lots_card-list {
     display: flex;
-    list-style: none;
-    gap: 25px;
     flex-wrap: wrap;
-    
+    list-style: none;
+    gap: 25px;    
 }
 
 .lots_card-list-item {
@@ -167,7 +161,6 @@ html {
 }
 
 .card-link {
-
     text-decoration: none;
 }
 
@@ -181,7 +174,6 @@ html {
     background-size: cover;
     background-position: 50% 50%;
     width: 334px;
-    
 }
 
 .card_type_film {
@@ -264,9 +256,7 @@ html {
     gap: 24px;
     font-size: 20px;
     line-height: 1.2;
-    
 }
-
 
 .footer {
     display: flex;
