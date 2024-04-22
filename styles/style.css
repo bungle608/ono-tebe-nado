@@ -12,7 +12,7 @@ html {
 }
 
 .header_menu {
-    margin-left: 25px;   
+    margin-left: 25px;
 }
 
 .header_links-list {
@@ -21,7 +21,7 @@ html {
 }
 
 .header_link-list-item {
-   
+
     list-style: circle;
     list-style-position: inside;
 }
@@ -152,7 +152,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    gap: 25px;    
+    gap: 25px;
 }
 
 .lots_card-list-item {
@@ -196,7 +196,7 @@ html {
     text-underline-offset: 5px;
     line-height: 1.2;
     color: #fff;
-    padding-top: 6px; 
+    padding-top: 6px;
 }
 
 .card_text {
