@@ -95,22 +95,26 @@ html {
     letter-spacing: 60px;
 }
 
+.aligned-text_left {
+    line-height: 1;
+}
+
 .letter-spacing-extended-right {
-    letter-spacing: 47px;
+    letter-spacing: 60px;
 }
 
 .aligned-text_center {
     text-align: center;
-    line-height: 1;
+    line-height: 1.6;
 }
 
 .letter-spacing {
-    letter-spacing: 14px;
+    letter-spacing: 6px;
 }
 
 .aligned-text_right {
     text-align: right;
-    line-height: 1.6;
+    line-height: 0.8;
 }
 
 .cover_description {
@@ -118,7 +122,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 97px 49px 50px 79px;
+    padding: 134px 49px 50px 79px;
 }
 
 .cover_description-text {
@@ -132,10 +136,10 @@ html {
     font-size: 22px;
     border: 1px solid #fff;
     text-transform: uppercase;
-    padding: 12px 25px;
+    padding: 12px 32px;
     background-color: transparent;
     color: #fff;
-    letter-spacing: 1px;
+   
 }
 
 .lots {
